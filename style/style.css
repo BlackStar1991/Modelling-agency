@@ -1,0 +1,294 @@
+html {
+        background: url(img/bg2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+.blockPhotos{
+	margin: 1%;
+	/*border: 1px solid black;*/
+	width: 1600px;
+	height: 100%;
+	
+}
+
+.flex-container{
+		
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.boxPhoto{
+	position: relative;
+	flex-basis:auto;
+	margin: 1% 2%;
+	width: 20%;
+	height: 400px;
+	/*filter: grayscale(1);*/
+
+	/*border: 1px solid black;*/
+	cursor: pointer;
+	
+	overflow: hidden;
+
+}
+
+.fullGate{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/*filter: grayscale(0);*/
+	z-index: 2;
+	/*border: 1px solid black;*/
+}
+
+
+
+.leftGate{
+	position: absolute;
+	left: 0%;
+	width: 40%;
+	height: 100%;
+	background-color: rgba(202,93,238, 0.5);
+	z-index: 1;
+}
+
+.rightGate{
+	position: absolute;
+	left: 60%;
+	width: 40%;
+	height: 100%;
+	background-color: rgba(202,93,238, 0.5);
+	z-index: 1;
+}
+
+.textForPhoto{
+		position: absolute;		
+		text-align: center;	
+
+		/*border: 1px solid black;*/
+		z-index: 2;
+}
+
+
+
+.textForPhoto p{
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.colorizeText{
+	text-shadow: #fff 2px 2px 0, #fff -2px -2px 0, 
+                 #fff -2px 2px 0, #fff 2px -2px 0;
+
+	animation: textColorize 1s linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes textColorize {
+	0%{
+		color: #fff;
+		
+	}
+	100%{
+		color: #F00;
+	 
+	}
+}
+
+.ph_bottom_left{
+	bottom: 0;
+	width: 40%;
+}
+.ph_bottom_center{
+	bottom: 5%;
+	left: 27%;
+	font-size: 1.2em;
+}
+.minText {
+	font-size: 0.5em;
+	margin: -10%;
+}
+
+
+.ph_left-vertical {
+	top: -2%;
+	left: 5%;
+	width: 1em;  
+    font-size: 1.2em;  
+    word-wrap: break-word; 
+}
+
+.ph_left-normal-vertical{
+	left: -5%;
+	top: 5%;
+	height: 100%;
+	  font-size: 1.5em;  
+	writing-mode: tb-rl;
+
+}
+
+.ph_center{
+	bottom: 0%;
+	left: 4%;
+}
+.ph_top-left{
+	top: 2%;
+	width: 40%;
+}
+.ph_center-left{
+	top: 45%;
+	width: 40%;
+}
+
+.ph_right_center{
+	right: 0;
+	top: 40%;
+	width: 40%;
+}
+
+.ph_1{
+	background: url('../img/1_ph.jpg') no-repeat 40% 0%;
+}
+
+.ph_2{
+	background: url('../img/2_ph.jpg') no-repeat 40% 10%;
+}
+
+.ph_3{
+	background: url('../img/3_ph.jpg') no-repeat 50% 10%;
+}
+
+.ph_4{
+	background: url('../img/4_ph.jpg') no-repeat 5% 15%;
+}
+
+.ph_5{
+	background: url('../img/5_ph.jpg') no-repeat 40% 5%;
+}
+
+.ph_6{
+	background: url('../img/6_ph.jpg') no-repeat 50% 10%;
+}
+
+.ph_7{
+	background: url('../img/7_ph.jpg') no-repeat 50% 0%;
+}
+
+.ph_8{
+	background: url('../img/8_ph.jpg') no-repeat 60% 5%;
+}
+
+.ph_9{
+	background: url('../img/9_ph.jpg') no-repeat 25% 0%;
+}
+
+.ph_10{
+	background: url('../img/10_ph.jpg') no-repeat 48% 15%;
+}
+
+.ph_11{
+	background: url('../img/11_ph.jpg') no-repeat 60% 5%;
+}
+
+
+.ph_12{
+	
+	background: url('../img/12_ph.jpg') no-repeat 40% 0%;
+	
+
+}
+
+.ph_1,.ph_2,.ph_3,.ph_4,.ph_5,.ph_6,.ph_7,.ph_8,.ph_9,.ph_10,.ph_11,.ph_12{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*filter: grayscale(1);*/ /* Можна подрубить фильтр*/
+	
+}
+
+.offFilter{
+	/*animation: filterOff 800ms linear;*/
+	animation-fill-mode: forwards;
+}
+
+@keyframes filterOff{
+	0%{
+		filter: grayscale(1);
+	}
+	100%{
+		filter: grayscale(0);
+	}
+}
+
+/*  ROMB   */
+
+.svg_romb, 
+.svg_circle{
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	z-index: -1;
+}
+
+.svg_romb_mid{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+}
+
+.svg_romb_min, 
+.svg_circle_min {
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	z-index: -1;
+}
+
+
+.pos_right-center{
+	top: 35%;
+	left: 60%;
+}
+
+
+.pos_right-center_min {
+	top: 70%;
+	left: 75%;
+}
+
+.pos_left-bottom{
+	top: 67%;
+	left: 2%;
+}
+.pos_left-bottom2{
+	top: 52%;
+	left: 0%;
+}
+.pos_left-bottom3{
+	top: 42%;
+	left: 0%;
+}
+.pos_left-bottom4{
+	bottom:  2%;
+	left: 0%;
+}
+
+.pos_left-bottom5{
+	bottom:  -20%;
+	left: -10%;
+}
+
+
+
+.pos_left-top{
+	left: 2%;
+	top: 2%;
+}

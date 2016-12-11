@@ -1,0 +1,44 @@
+
+
+
+<svg version="1.1" id="rombCover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 283.3 285.6" style="enable-background:new 0 0 283.3 285.6;" xml:space="preserve" >
+
+
+
+	 <defs>
+		<style type="text/css">
+	<!-- 	#rombCover:hover .st0{
+			fill:#000;
+		}
+ -->
+		.st0{
+
+				stroke-dasharray: 4000;
+				stroke-dashoffset: 0;
+				-webkit-animation: dash 4s linear forwards;
+				-o-animation: dash 4s linear forwards;
+				-moz-animation: dash 4s linear forwards;
+				animation: dash 4s linear forwards;
+				}
+
+	@-webkit-keyframes dash {
+		from{
+			stroke-dasharray: 4000;
+		}
+		to{
+			stroke-dasharray: 0;
+		}
+	}
+
+
+		</style>
+	 </defs>
+<style type="text/css">
+	.st0{fill:#B049B4;stroke:#9109B2;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g>
+	<path id="romb" class="st0" d="M141.4,3.6l-1.2,1.2 M140.2,4.8L2.8,142.2l138.6,138.6L280,142.2L141.4,3.6 M141.4,31.3l110.9,110.9L141.4,253
+		L30.5,142.2L141.4,31.3"/>
+</g>
+</svg>
