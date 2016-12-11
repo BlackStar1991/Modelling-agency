@@ -13,7 +13,10 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	.navigationTop ul{
+		color: yellow;	
+		/*display: none;*/
+	}
 }
 
 /* Extra Small Devices, Phones */

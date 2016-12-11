@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="420a56cc-a75b-4c2c-9f72-e15c576d770e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Новая папка/1304747895_angelina-b_www.alive-ua.com_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Новая папка/1340641536_www.alive-ua.com-anastasia-christen-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Новая папка/1351028635_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Новая папка/1351623747_019.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Новая папка/1382397245_251030_full.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Новая папка/1382397279_251031_full.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Новая папка/1415122466_thelifeerotic_cleaning-house_kira-w_high_0009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Новая папка/w695_h576_2x-4.jpeg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moddelling.html" afterPath="$PROJECT_DIR$/moddelling.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros.cfg" afterPath="$PROJECT_DIR$/prepros.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,21 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="moddelling.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="moddelling.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/moddelling.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="85" column="30" lean-forward="true" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+            <state relative-caret-position="345">
+              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="129" column="30" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+            <state relative-caret-position="2838">
+              <caret line="129" column="30" lean-forward="false" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -53,8 +61,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/moddelling.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/moddelling.html" />
       </list>
     </option>
   </component>
@@ -119,12 +127,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480587521839</updated>
       <workItem from="1480587525017" duration="671000" />
-      <workItem from="1481455601522" duration="1593000" />
+      <workItem from="1481455601522" duration="3382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2264000" />
+    <option name="totallyTimeSpent" value="4053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1" width="1680" height="1008" extended-state="0" />
@@ -175,18 +183,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moddelling.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="85" column="30" lean-forward="true" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+        <state relative-caret-position="2838">
+          <caret line="129" column="30" lean-forward="false" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/moddelling.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="129" column="30" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+        <state relative-caret-position="345">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding />
         </state>
       </provider>
