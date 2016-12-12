@@ -451,55 +451,112 @@ ul,li{
 
 /*  Section PARTNERS*/
 
-.partnersBlock{
-	position: relative;
+.descPart{
 	width: 100%;
-	height: 260px;
-	margin-bottom: 40%;
-}
-
-.partnersBlock .firstLine,
-.partnersBlock .secondLine,
-.partnersBlock .thirdLin{
-	width: 100%;
-
-	/*margin: 0 auto;*/
-	/*padding-left: 5%;*/
-}
-
-.partnersBlock .firstLine {
-	position: absolute;
-	top: 0;
-	z-index: 1;
-}
-
-.partnersBlock .secondLine {
-	position: absolute;
-	top: 70%;
-	left: 6%;
-	z-index: 1;
-}
-.partnersBlock .thirdLine{
-	position: absolute;
-	top: 150%;
-	z-index: 1;
-}
-
-
-.partnersBlock .firstLine a,
-.partnersBlock .thirdLine a{
-	margin-left: 2.5%;
-}
-
-.partnersBlock .secondLine a{
-	margin-left: 6%;
-}
-
-.partnersBlock a:hover  {
 	
-	border: 4px solid black; 
+	color: red;
+	font-size: 1.3em;
+	font-family: 'Merienda One', cursive;
+	text-decoration: underline;
+	
+
+}
+
+.partnersBlock{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	/*padding-bottom: 150%;*/
+}
+.partnersBlock .firstLine 
+{
+	z-index: 1;
+}
+.partnersBlock .secondLine{
+	position: absolute;
+	width: 100%;
+	top: 30%;
+	left: 9%;	
 	z-index: 2;
 }
+.partnersBlock .secondLine a{
+	padding-left: 4%;
+}
+
+.partnersBlock .thirdLine{
+	margin-top: 12%;
+	z-index: 1;
+}
+
+
+
+.partnersBlock2{
+	margin-top: 1%;
+	width: 100%;
+	text-align: center;	
+}
+.partnersBlock2 .firstLine{
+/*	padding-left: 1%;*/
+}
+
+.partnersBlock2 .secondLine{
+	clear: both;
+}
+
+.partnersBlock2 .firstLine a{
+	/*margin-left: 5%;*/
+
+	text-align: center;	
+}
+
+
+.imgBrandSpan{
+	float: left;	
+	width: 172px;
+	height: 172px;
+	background-image: url("../img/Fashion/fashion-brands.gif");
+	background-repeat: no-repeat;
+}
+
+.imgBrandSpan:nth-child(1){
+
+	background-position: 0 0; 
+}
+.imgBrandSpan:nth-child(2){
+	
+	background-position: -176px 0; 
+}
+
+.imgBrandSpan:nth-child(3){
+
+	background-position: -352px 0; 
+}
+
+.imgBrandSpan:nth-child(4){
+	background-position: 0 0; 
+}
+
+.imgBrandSpan:nth-child(5){
+	background-position: 0 0; 
+}
+
+.imgBrandSpan:nth-child(6){
+	background-position: 0 0; 
+}
+
+.imgBrandSpan:nth-child(7){
+	background-position: 0 0; 
+}
+
+.imgBrandSpan:nth-child(8){
+	background-position: 0 0; 
+}
+
+.imgBrandSpan:nth-child(9){
+	background-position: 0 0; 
+}
+
+
 
 
 
