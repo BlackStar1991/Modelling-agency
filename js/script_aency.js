@@ -18,7 +18,56 @@ window.onload = function () {
 
 
 			textForPhoto = $('.textForPhoto p');
-			
+	
+
+
+
+// carusel
+//Каруселька
+	//Документация: http://owlgraphic.com/owlcarousel/
+
+var owl = $('.owl-carousel');
+	owl.owlCarousel({
+		items : 1,
+		 loop:true,
+		 autoHeight: true
+		 
+	});
+
+	owl.on('mousewheel', '.owl-stage', function (e) {
+    if (e.deltaY>0) {
+        owl.trigger('next.owl');
+    } else {
+        owl.trigger('prev.owl');
+    }
+    e.preventDefault();
+});
+
+	$(".next_button").click(function(){
+		owl.trigger("next.owl");
+	});
+	$(".prev_button").click(function(){
+		owl.trigger("prev.owl");
+	});
+
+	//Кнопка "Наверх"
+	//Документация:
+	//http://api.jquery.com/scrolltop/
+	//http://api.jquery.com/animate/
+	$("#top").click(function () {
+		$("body, html").animate({
+			scrollTop: 0
+		}, 800);
+		return false;
+	});
+	
+
+
+
+
+
+
+
 
 boxPhoto.hover(function(event){
 
