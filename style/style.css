@@ -92,6 +92,10 @@ body {
 		overflow: hidden;
 }
 
+h2 .decorLine {
+	width: 100%;
+}
+
 .decorLine:before,
 .decorLine:after {
 		content: '';
@@ -115,7 +119,7 @@ body {
 
 .innerTitle {
 		position: relative;
-		width: 300px;
+		width: 340px;
 		margin: 0 auto;
 }
 
@@ -474,7 +478,7 @@ body {
 	width: 100%;
 }
 
-.servBlock img{
+.servBlock >img{
 	float: left;
 	margin: 1%;
 }
@@ -534,6 +538,245 @@ body {
 	background-image: url("../img/Servises/pink-rabbit-min.png");
 }
 */
+
+/*  Section SCHOOL*/
+
+.mySchool{
+
+}
+
+.treaningBlocks{
+
+	width: 100%;
+	height: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+#program1{
+	background:  url("../img/School/school_program1.jpg") no-repeat 50% 50%;
+}
+#program2{
+	background: url("../img/School/school_program2.jpg") no-repeat 5% 0%;
+}
+#program3{
+	background: url("../img/School/school_program3.jpg") no-repeat 50% 50%;
+}
+#program4{
+	background: url("../img/School/school_program4.jpg") no-repeat 50% 50%;
+}
+
+#program5{
+	background: url("../img/School/school_program5.jpg") no-repeat 0% 50%;
+}
+#program6{
+	background: url("../img/School/school_program6.jpg") no-repeat 50% 50%;
+}
+#program7{
+	background: url("../img/School/school_program7.jpg") no-repeat 50% 0%;
+}
+#program8{
+	background: url("../img/School/school_program8.jpg") no-repeat 50% 50%;
+}
+#program9{
+	background: url("../img/School/school_program9.jpg") no-repeat 100% 0%;
+}
+
+.shoolBL{
+
+	float: left;
+	position: relative;
+	width: 20%;
+	height: 446px;
+	cursor: pointer;	
+}
+
+.shoolBL2{
+	float: left;
+	position: relative;
+	width: 40%;
+	height: 446px;
+}
+
+.shoolB3{
+	float: left;
+	position: relative;
+	width: 20%;
+	height: 446px;
+}
+
+
+
+.innerBl{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 45% 5%;
+	opacity: 0;   /* ISP*/
+
+	color: black;
+	font-size: 1.2em;
+	
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.treaningBlocks .logo{
+	position: absolute;
+	opacity: 1;
+	z-index: 2;
+}
+
+
+.schoolImgBox img{
+	 max-width: 100%;
+	 background-size:cover;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+}
+
+
+
+#program1 .logo{
+	top: 80%;
+	left: 20%;
+}
+
+#program2 .logo{
+	top: 2%;
+	left: 1%;
+}
+#program3 .logo{
+	top: 75%;
+	left: 5%;
+}
+
+#program4 .logo{
+	top: 80%;
+	left: 35%;
+}
+
+#program5 .logo{
+	top: 57%;
+	left: 5%;
+}
+
+
+#program6 .logo{
+	top: 85%;
+	left: 2%;
+}
+
+#program7 .logo{
+	top: 80%;
+	left: 10%;
+}
+
+#program8 .logo{
+	top: 85%;
+	left: 10%;
+}
+#program9 .logo{
+	top: 87%;
+	left: 10%;
+}
+
+.innerBl:hover{
+	width: 100%;
+	height: 100%;	
+	opacity: 1;
+}
+
+#program1:hover .logo{
+	top: 5%;
+	left: 20%;
+}
+#program2:hover .logo{
+	top: 0%;
+	left: 1%;
+}
+
+#program3:hover .logo{
+	top: 5%;
+	left: 2%;
+
+}
+#program4:hover .logo{
+	top: 5%;
+	left: 15%;
+}
+#program5:hover .logo{
+	top: 5%;
+	left: 5%;
+}
+
+#program6:hover .logo{
+	top: 5%;
+	left: 10%;
+}
+
+#program7:hover .logo{
+	top: 5%;
+	left: 10%;
+}
+
+#program8:hover .logo{
+	top: 10%;
+	left: 10%;
+}
+
+#program9:hover .logo{
+	top: 10%;
+	left: 10%;
+}
+
+#program1 .innerBl{
+	background-color: #DBF1F7;
+}
+
+#program2 .innerBl{
+	background-color: #fafafa;
+}
+#program3 .innerBl{
+	background-color: #E0E0E0;
+}
+#program4 .innerBl{
+	background-color:  #E4CEC6;
+}
+#program5 .innerBl{
+	background-color:  #C0CEA4;
+}
+#program6 .innerBl{
+	background-color: #808080;
+}
+#program7 .innerBl{
+	background-color: #F6E172;
+}
+#program8 .innerBl{
+	background-color: #CB93AA;
+}
+#program9 .innerBl{
+	background-color: #F3F2F2;
+}
+
+
+.rightText{
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	text-decoration: underline;
+	
+}
+ .nameTeacher{
+ 	margin: 0;
+ 	text-align: right;
+	font-weight: bold;
+}
+
+
+
 
 /*  Section PARTNERS*/
 
@@ -662,6 +905,22 @@ a:nth-child(11) .imgBrandSpan {
 a:nth-child(12) .imgBrandSpan {
 		background-position: -352px -533px;
 }
+
+ /*Section Casting*/
+
+.myCasting .block{
+	position: relative;
+	margin: 0 30%;
+	text-align: center;
+}
+
+.block p{
+	color: black;
+		padding: 10px;
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 1.2em;
+}
+
 
 /* FOOTER */
 

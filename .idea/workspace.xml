@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="420a56cc-a75b-4c2c-9f72-e15c576d770e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pink-rabbit-mark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/owl-carousel/owl.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/owl-carousel/owl.transitions.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Fashion/fashion-brands.gif" afterPath="$PROJECT_DIR$/img/Fashion/fashion-brands.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script_aency.js" afterPath="$PROJECT_DIR$/js/script_aency.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/owl-carousel/owl.carousel.css" afterPath="$PROJECT_DIR$/lib/owl-carousel/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/owl-carousel/owl.carousel.js" afterPath="$PROJECT_DIR$/lib/owl-carousel/owl.carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/owl-carousel/owl.carousel.min.js" afterPath="$PROJECT_DIR$/lib/owl-carousel/owl.carousel.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moddelling.html" afterPath="$PROJECT_DIR$/moddelling.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros.cfg" afterPath="$PROJECT_DIR$/prepros.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
@@ -37,13 +28,13 @@
       <file leaf-file-name="moddelling.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/moddelling.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="476" column="14" lean-forward="true" selection-start-line="476" selection-start-column="14" selection-end-line="476" selection-end-column="14" />
+            <state relative-caret-position="308">
+              <caret line="542" column="87" lean-forward="false" selection-start-line="542" selection-start-column="87" selection-end-line="542" selection-end-column="87" />
               <folding>
-                <element signature="e#12483#12488#0" expanded="true" />
-                <element signature="e#13566#13571#0" expanded="true" />
-                <element signature="e#14819#14824#0" expanded="true" />
-                <element signature="e#15525#15530#0" expanded="true" />
+                <element signature="e#12499#12504#0" expanded="true" />
+                <element signature="e#13827#13832#0" expanded="true" />
+                <element signature="e#15630#15635#0" expanded="true" />
+                <element signature="e#16643#16648#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -118,6 +108,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -126,6 +117,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -140,17 +132,18 @@
       <workItem from="1480587525017" duration="671000" />
       <workItem from="1481455601522" duration="3382000" />
       <workItem from="1481539598208" duration="3438000" />
+      <workItem from="1481628546617" duration="2104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7491000" />
+    <option name="totallyTimeSpent" value="9595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1" width="1680" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24420024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24358974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -202,19 +195,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#12483#12488#0" expanded="true" />
-            <element signature="e#13566#13571#0" expanded="true" />
-            <element signature="e#14819#14824#0" expanded="true" />
-            <element signature="e#15525#15530#0" expanded="true" />
+            <element signature="e#12499#12504#0" expanded="true" />
+            <element signature="e#13827#13832#0" expanded="true" />
+            <element signature="e#15630#15635#0" expanded="true" />
+            <element signature="e#16643#16648#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="129" column="30" lean-forward="false" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -223,10 +208,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#12483#12488#0" expanded="true" />
-            <element signature="e#13566#13571#0" expanded="true" />
-            <element signature="e#14819#14824#0" expanded="true" />
-            <element signature="e#15525#15530#0" expanded="true" />
+            <element signature="e#12499#12504#0" expanded="true" />
+            <element signature="e#13827#13832#0" expanded="true" />
+            <element signature="e#15630#15635#0" expanded="true" />
+            <element signature="e#16643#16648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css" />
+    <entry file="file://$PROJECT_DIR$/moddelling.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#12499#12504#0" expanded="true" />
+            <element signature="e#13827#13832#0" expanded="true" />
+            <element signature="e#15630#15635#0" expanded="true" />
+            <element signature="e#16643#16648#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -243,13 +242,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/moddelling.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="476" column="14" lean-forward="true" selection-start-line="476" selection-start-column="14" selection-end-line="476" selection-end-column="14" />
+        <state relative-caret-position="308">
+          <caret line="542" column="87" lean-forward="false" selection-start-line="542" selection-start-column="87" selection-end-line="542" selection-end-column="87" />
           <folding>
-            <element signature="e#12483#12488#0" expanded="true" />
-            <element signature="e#13566#13571#0" expanded="true" />
-            <element signature="e#14819#14824#0" expanded="true" />
-            <element signature="e#15525#15530#0" expanded="true" />
+            <element signature="e#12499#12504#0" expanded="true" />
+            <element signature="e#13827#13832#0" expanded="true" />
+            <element signature="e#15630#15635#0" expanded="true" />
+            <element signature="e#16643#16648#0" expanded="true" />
           </folding>
         </state>
       </provider>
