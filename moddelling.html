@@ -31,29 +31,29 @@
         </div>
     </div>
 </header>
-<nav class="navigationSite">
+<nav class="navigationSite "> <!-- ++ navMob -->
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+       <div class="row">
+           <div class="col-md-12">
 
                 <div class="navigationTop clearfix">
                     <button class="my_menu_button"><em class=" fa fa-bars"></em></button>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Models</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Fashion School</a></li>
-                        <li><a href="#">Partners</a></li>
-                        <li><a href="#">Casting</a></li>
-                        <li><a href="#">Contacts</a></li>
+                    <ul class="navBar">
+                        <li><a href="#aboutUs">About Us</a></li>
+                        <li><a href="#myModels">Models</a></li>
+                        <li><a href="#myServices">Services</a></li>
+                        <li><a href="#mySchool">Fashion School</a></li>
+                        <li><a href="#myPartners">Partners</a></li>
+                        <li><a href="#myCasting">Casting</a></li>
+                        <li><a href="#contactInfo">Contacts</a></li>
                     </ul>
                 </div>
             </div>
+            </div>
         </div>
-    </div>
 </nav>
 
-<section class="aboutUs">
+<section id="aboutUs">
     <div class="container">
         <div class="row">
             <div class="col-md-1">
@@ -87,7 +87,7 @@
     </div>
 </section>
 
-<section class="myModels">
+<section id="myModels">
     <div class="container">
         <div class="col-md-12">
             <div class="titleSection">
@@ -293,7 +293,7 @@
     </div>
 </section>
 
-<section class="myServices">
+<section id="myServices">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -376,7 +376,7 @@
     </div>
 </section>
 
-<section class="mySchool">
+<section id="mySchool">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -582,7 +582,7 @@
 
 </section>
 
-<section class="myPartners">
+<section id="myPartners">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -692,7 +692,7 @@
     </div>
 </section>
 
-<section class="myCasting">
+<section id="myCasting">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -700,9 +700,10 @@
                     <div class="block">
                         <p>Are you dreaming about a model career?<br>
                         Contact us</p>
-                      
+                        
                             <form action="">
-                                <button>Dreams Come True</button>
+                             <img src="img/FooMin.png" alt="footerMin">
+                                <div class="contactDiv"><input class="contactBut" type="button" value="Dreams Come True"></div>
                             </form>
                     </div>
                 </div>
@@ -725,7 +726,7 @@
                     <a href="#"><em class="fa fa-pinterest-square"></em></a>
                     <a href="#"><em class="fa fa-youtube"></em></a>
                 </div>
-                <div class="contactInfo">
+                <div id="contactInfo">
                     <h2>Out contacts</h2>
                     <p>Kiev, Ukraine</p>
                     <p> Zirka st.777 d.</p>
@@ -735,6 +736,104 @@
         </div>
     </div>
 </footer>
+
+<section class="castingPage">
+        <div class="bigCasting">
+           
+
+
+                
+
+                    <fieldset form="mainInfo">
+                        <legend>SUBMISSIONS</legend>
+                    
+                <p class="textForm">Name*</p>      <p class="valueForm mName"><input type="text" autofocus required></p>
+                <p class="textForm">Surname*</p>      <p class="valueForm mSurname"><input type="text" required></p>
+                <p class="textForm">E-mail*</p>      <p class="valueForm mEmail"><input type="text" required></p>
+                <p class="textForm">Gender</p>   <p class="valueForm"><input type="radio" name="sex" value="Female" checked >female 
+                                                    <input type="radio" name="sex" value="male">male</p>
+                                                    <p class="textForm">Age*</p>      <p class="valueForm"><select>
+                                                        <option value="SelectAge">SelectAge*</option>
+                                                        
+                                                            <option name="Age-" value="13">13</option>
+                                                            <option name="Age-" value="14">14</option>
+                                                            <option name="Age-" value="15">15</option>
+                                                            <option name="Age-" value="16">16</option>
+                                                            <option name="Age-" value="17">17</option>
+                                                            <option name="Age-" value="18">18</option>
+                                                            <option name="Age-" value="19">19</option>
+                                                            <option name="Age-" value="20">20</option>
+                                                            <option name="Age-" value="21">21</option>
+                                                            <option name="Age-" value="22">22</option>
+                                                            <option name="Age-" value="23">23</option>
+                                                            <option name="Age-" value="24">24</option>
+                                                            <option name="Age-" value="25">25</option>
+                                                            <option name="Age-" value="26">26</option>
+                                                            <option name="Age-" value="27">27</option>
+                                                            <option name="Age-" value="OtherAge">OtherAge</option>
+                                                           
+                                                    </select></p>
+                <p class="textForm">Height*</p>    <p class="valueForm mHeight"><input type="text" placeholder="cm"></p>
+                <p class="textForm">Weight*</p>    <p class="valueForm mWeigh"><input type="text" placeholder="kg"></p>
+                <p class="textForm">City*</p>      <p class="valueForm mCity"><input type="text"></p>
+                <p class="textForm">Country</p>   <p class="valueForm"><input type="text"></p>
+                <p class="textForm">Zipcode</p>   <p class="valueForm"><input type="text"></p>
+
+                </fieldset>
+           
+
+                 <div class="instruction">
+                <p>Recruitment Warning:</p>
+                <p>
+                        We believe it is important to advise models about deceitful people who may try prey upon them.
+                        Please be aware there are individuals on the internet falsely claiming to be representatives or scouts of ONE MODELS.
+                        </p>
+                    <p>
+                        Please note the following: <br>
+
+                        * We never require the payment of money <br>
+
+                        * We never request photos in the nude or in lingerie <br>
+
+                        * We do not correspond via email domains that do not end with onemanagement.com
+                        If you are contacted by anyone claiming to be a representative of Pinc Rabbit MODELS,
+                        do not respond without first verifying their identity by promptly calling us directly at (098)777-7777
+                        and we'll be happy to assist you.
+                    </p>
+            </div>
+
+                <div class="addInfo">
+                
+                    <textarea  name="infoM" id="infoAboutM" cols="38" rows="11" placeholder="*Add some information about yourself"></textarea>
+               
+                </div>
+              
+                <div class="addPhotoBlock">
+                    <fieldset form="mainInfo">
+                        <legend>PHOTO UPLOAD</legend>
+                        <p>
+                Please upload four photos following the examples below.<br>                File requirements: Upload limit - 600kb. Formats - .jpg, .jpeg
+ </p>
+                        <div class="phInfo">
+                            
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="sendDate">
+                     <form  method="get">
+                                <p><input type="submit" value="Send" form="mainInfo"></p>
+                   </form>
+
+                </div>
+
+
+
+           </div>
+            
+
+
+</section>
 <script type="text/javascript" src='js/script_aency.js'></script>
 </body>
 </html>

@@ -3,6 +3,7 @@ window.onload = function () {
 
 	console.log("Everything good");
 
+
 		var boxPhoto= $('.boxPhoto'),
 			leftGate = $('.leftGate'),
 			rightGate = $('.rightGate'),
@@ -17,8 +18,31 @@ window.onload = function () {
 			romb =$('.svg_romb'),
 
 
+			navBar =$(".navBar"),
+
+
 			textForPhoto = $('.textForPhoto p');
 	
+//  Работа с навигацией сайта
+
+$(".navigationTop").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1000);
+    });
+
+$('.my_menu_button').on("click",  function(){
+
+	// navBar.toggleClass('noneVis');
+
+	if ($(".navBar").is(":hidden")) {
+        navBar.slideDown();
+      } else {
+        navBar.slideUp();
+      }
+});
+
 
 
 
@@ -50,24 +74,11 @@ var owl = $('.owl-carousel');
 		owl.trigger("prev.owl");
 	});
 
-	//Кнопка "Наверх"
-	//Документация:
-	//http://api.jquery.com/scrolltop/
-	//http://api.jquery.com/animate/
-	$("#top").click(function () {
-		$("body, html").animate({
-			scrollTop: 0
-		}, 800);
-		return false;
-	});
-	
 
 
 
 
-
-
-
+// Box Model Работа с фильтрами и анимацией
 
 boxPhoto.hover(function(event){
 
@@ -106,7 +117,40 @@ boxPhoto.hover(function(event){
 
 
 
+//  CaSTING DIV
 
+	
+
+
+ $('.contactBut').on("click", function(){
+
+
+ 	$('.castingPage').css({display: 'block'});
+ })
+
+
+
+    var boxWidth = 100;
+
+    function centerBox() {
+
+        /* определяем нужные данные */
+        var winWidth = $(window).width();
+        var winHeight = $(document).height();
+        var scrollPos = $(window).scrollTop();
+
+        /* Вычисляем позицию */
+
+        var disWidth = (winWidth - boxWidth) / 4 ;
+        var disHeight = scrollPos ;
+
+        /* Добавляем стили к блокам */
+        $('.castingPage').css({ 'left': disWidth + 'px', 'top': disHeight + 'px' });
+        // $('.bigCasting').css({ 'width': winWidth + 'px', 'height': winHeight + 'px' });
+
+        return false;
+    }
+    centerBox();
 
 
 

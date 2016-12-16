@@ -38,7 +38,33 @@ body {
 
 .navigationSite {
 		width: 100%;
+		
 }
+
+/* MOBILE NAVIG*/
+
+
+.navMob{
+	width: 10%;
+	position: fixed;
+}
+
+
+.navMob .navigationTop li{
+	width: 100%;
+	text-align: center;
+	border: 1px solid red;
+}
+.navMob .navigationTop li:first-child,
+.navMob .navigationTop li:last-child{
+	border-radius: 0;
+}
+
+.navMob .navigationTop a{
+	width: 100%;
+	font-size: 1.2em;
+}
+/* MOBILE END*/
 
 .navigationTop ul{
 	margin: 0;
@@ -129,6 +155,14 @@ h2 .decorLine {
 		color: pink;
 		font-size: 2em;
 }
+
+
+/*.noneVis{
+	display: none;
+}
+
+*/
+
 
 /**/
 
@@ -478,14 +512,16 @@ h2 .decorLine {
 	width: 100%;
 }
 
-.servBlock >img{
-	float: left;
-	margin: 1%;
+.servBlock img{
+	float: right;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right:  23%;
 }
 
 .servTextBlock{
 	margin-top: 1%;
-	float: left;
+	float: right;
 	width: 500px;
 	height: 300px;
 	background: url("../img/Servises/backgroundServices.png") no-repeat 50% 50%;
@@ -541,9 +577,6 @@ h2 .decorLine {
 
 /*  Section SCHOOL*/
 
-.mySchool{
-
-}
 
 .treaningBlocks{
 
@@ -589,8 +622,7 @@ h2 .decorLine {
 	float: left;
 	position: relative;
 	width: 20%;
-	height: 446px;
-	cursor: pointer;	
+	height: 446px;	
 }
 
 .shoolBL2{
@@ -908,19 +940,47 @@ a:nth-child(12) .imgBrandSpan {
 
  /*Section Casting*/
 
-.myCasting .block{
+.castingButtonBox{
+	margin: 3% 0;
+}
+
+#myCasting .block{
 	position: relative;
-	margin: 0 30%;
+	width: 350px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 1.2em;
+	font-weight: bold;
 	text-align: center;
 }
 
-.block p{
-	color: black;
+#myCasting .block p{
+		
 		padding: 10px;
 		font-family: 'Fjalla One', sans-serif;
 		font-size: 1.2em;
 }
 
+ #myCasting .block img {
+	float: left;
+	margin-top: -15%;
+	margin-left: 2%;
+}
+
+
+.contactDiv{
+
+
+}
+
+.contactBut {
+	height: 60px;
+	background-color: #652E77;
+	color: white;
+
+	border-radius: 20%;
+	margin: 0 auto;
+}
 
 /* FOOTER */
 
@@ -959,15 +1019,147 @@ a:nth-child(12) .imgBrandSpan {
 		height: 25%;
 }
 
-.contactInfo {
+#contactInfo {
 		float: right;
 		margin-top: 5%;
 		text-align: center;
 }
 
-.contactInfo p, .contactInfo h2 {
+#contactInfo p, #contactInfo h2 {
 
 		margin: 0;
 		padding: 0;
 
+}
+
+
+
+/* SECTION Casting Page*/
+
+.castingPage{
+	position: absolute;
+	
+	/*display: none;*/
+	z-index: 999;
+}
+
+
+.bigCasting{
+	
+	width:50%;
+	height: 800px;	
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0 auto;
+	background-color: #FFC1EC;
+
+	border: 1px solid black;
+}
+.bigCasting fieldset{
+	width: 50%;
+	padding: 1%;
+	float: left;
+	
+}
+
+
+.bigCasting p{
+	text-align: center;
+	
+}
+
+
+
+
+.textForm{
+
+	width: 40%;
+	height: 10%;
+	clear: left;
+	float: left;
+	
+}
+
+.valueForm{
+	height: 10%;
+	float: left;
+}
+
+.instruction {
+	float: left;
+	
+	padding: 0 2%;
+	width: 40%;
+	
+	border: 1px solid black;
+}
+
+.instruction p {
+	text-align: left;	
+	font-size: 0.9em;
+}
+
+
+
+.valueForm input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.valueForm input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.valueForm input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.valueForm input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.valueForm input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+.valueForm input:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+.valueForm input:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+.valueForm input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+
+fieldset{
+
+	border: 2px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*AddInfo*/
+
+.addInfo{
+	margin-top: 1%;
+	/*padding: 1%;*/
+	float: left;
+	/*width: 40%;*/
+}
+
+
+
+/*addPhotoBlock*/
+.addPhotoBlock{
+	clear: both;
+	width: 100%;
+	border: 1px solid #000;
+}
+
+.addPhotoBlock p{
+	
+	/*text-align: left;	*/
+	font-size: 0.9em;
+}
+
+
+.phInfo{
+	margin-top: 1%;	
+}
+
+
+
+
+.sendDate{
+	clear: both;
+	margin: 0 auto;
 }
