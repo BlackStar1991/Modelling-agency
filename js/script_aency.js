@@ -130,7 +130,7 @@ boxPhoto.hover(function(event){
 
 
 
-    var boxWidth = 100;
+    var boxWidth = 250;
 
     function centerBox() {
 
