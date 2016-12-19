@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<style type="text/css">
+
+.field{
+	border: 1px solid #000;
+	width: 800px;
+	height: 1800px;
+}
+
+	.block{
+		margin: 10%;
+		width: 50px;
+		height: 50px;
+		background-color: red;
+	}
+</style>
+<body>
+	<div class="field">		
+	<div class="block"></div>
+	</div>
+</body>
+	<script type="text/javascript">
+		
+	window.onload = function () { 
+
+
+$("body").scroll(function() {
+
+ var coord = $('.block').offset().top;
+
+if ($('.block').offset().top == 0) {
+		
+		console.log("Елемента больше не видно в браузере");
+	}
+else {
+	console.log("Елемент снова в браузере виден");
+}
+
+});
+
+	}
+	</script>
+</html>

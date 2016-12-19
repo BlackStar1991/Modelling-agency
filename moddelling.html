@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Moddelling agency Andry style =)</title>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
     <script src="lib/owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-throttle-debounce-master/jquery.ba-throttle-debounce.js"></script>
     <!-- <script src="libs/scrollto/jquery.scrollTo.min.js"></script> -->
 
     <link rel="stylesheet" type="text/css" href="lib/normolize/normalize.css">
@@ -31,7 +34,7 @@
         </div>
     </div>
 </header>
-<nav class="navigationSite "> <!-- ++ navMob -->
+<nav class="navigationSite"> <!-- ++ navMob -->
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -89,7 +92,7 @@
 
 <section id="myModels">
     <div class="container">
-        <div class="col-md-12">
+        <div class="col-md-12 col-sm-12">
             <div class="titleSection">
 
                 <div class="innerTitle"><h2><a class="decorLine" href="#"><em class=" fa fa-venus"></em>
@@ -98,7 +101,7 @@
 
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
 
                 <div class="boxPhoto">
                     <div class="ph_1"></div>
@@ -165,7 +168,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
 
                 <div class="boxPhoto">
                     <div class="ph_2"></div>
@@ -242,7 +245,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
 
                 <div class="boxPhoto">
                     <div class="ph_3"></div>
@@ -296,7 +299,7 @@
 <section id="myServices">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
                 <div class="titleSection">
 
                     <div class="innerTitle"><h2><a class="decorLine" href="#">
@@ -379,7 +382,7 @@
 <section id="mySchool">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
                 <div class="titleSection">
 
                     <div class="innerTitle"><h2><a class="decorLine" href="#">
@@ -586,14 +589,14 @@
 <section id="myPartners">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
                 <div class="titleSection">
 
                     <div class="innerTitle"><h2><a class="decorLine" href="#">
                         Our Partners </a></h2></div>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
                 <div class="descPart"><h2>Magazines</h2></div>
 
                 <div class="partnersBlock">
@@ -615,9 +618,6 @@
                                 <a href="#"><img src="img/Magazine/boutique.jpg" alt="2_2"></a>
                                 <a href="#"><img src="img/Magazine/elle.jpg" alt="2_3"></a>
                             </div>
-                            <!--  <div class="col-md-4"><a href="#"><img src="img/Magazine/TandT.jpg" alt="2_1"></a></div>
-                             <div class="col-md-4"><a href="#"><img src="img/Magazine/boutique.jpg" alt="2_2"></a></div>
-                             <div class="col-md-4"><a href="#"><img src="img/Magazine/elle.jpg" alt="2_3"></a></div> -->
                         </div>
                     </div>
 
@@ -697,7 +697,7 @@
 <section id="myCasting">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
                 <div class="castingButtonBox">
                     <div class="block">
                         <p>Are you dreaming about a model career?<br>
@@ -719,7 +719,7 @@
 <footer class="buttom_footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
                 <img class="logoButton" src="img/rabbit_footer.gif" alt="rabbit_footer">
                 <div class="soc_button">
                     <p>FOLLOW NEXT MANAGEMENT:</p>
@@ -741,8 +741,8 @@
 </footer>
 
 <section class="castingPage">
+    <div class="closeBut"><em class="fa fa-times"></em></div>
     <div class="bigCasting">
-
         <fieldset>
             <legend>SUBMISSIONS</legend>
             <label for="mName"><p class="textForm">Name*</p></label>
@@ -754,10 +754,10 @@
             <label for="mEmail"><p class="textForm">E-mail*</p></label>
             <input id='mEmail' class="valueForm" name="email-" type="text" required>
 
-            <label><p class="textForm">Gender</p>
-                <p class="valueForm"><input name="sex-" type="radio" value="Female" checked>female
-                    <input type="radio" name="sex" value="male">male</p>
-            </label>
+            <p class="textForm">Gender</p>
+             <label> <p class="valueForm"><input type="radio" name="sex-"  value="Female" checked>female  </label>
+             <label>  <input type="radio" name="sex-" value="male">male</p> </label>
+           
 
             <p class="textForm">Age*</p>
             <p class="valueForm">
@@ -821,7 +821,7 @@
 
         <div class="addInfo">
 
-            <textarea name="infoModel-" id="infoAboutM" cols="38" rows="11"
+            <textarea name="infoModel-" id="infoAboutM" cols="38" rows="8"
                       placeholder="*Add some information about yourself"></textarea>
 
         </div>
