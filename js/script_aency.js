@@ -25,39 +25,28 @@ window.onload = function () {
 //  Работа с навигацией сайта
 
 	
-
-
-
-						// function changeNav() {
-						// 		var coord = $navigationTop.offset().top + $navigationTop.height();
-						// 		if ($navigationSite.hasClass("navMob") && $(window).scrollTop() < coord)
-						// 		 {
-						// 				buttonNav.css({display: "none"});
-						// 				navBar.show();
-						// 				$navigationSite.toggleClass("navMob")
-
-
-						// 		} else if ($(window).scrollTop() > coord) {
-						// 				buttonNav.css({display: "block"});
-						// 				navBar.hide();
-						// 				$navigationSite.toggleClass("navMob")
-						// 		}
-						// }
-
-						// $(window).scroll($.throttle(changeNav, 200))
 			
-
 var nav = $('.navigationSite'),
     navPosTop =  $navigationTop.offset().top + $navigationTop.height(),
     timer;
 $(window).on({
     scroll: function() {
         nav[$(this).scrollTop() > navPosTop ? 'addClass' : 'removeClass']('navMob');
+
+        if (nav.hasClass('navMob')) {
+        	buttonNav.css("display", "block");
+        	
+
+        }else{
+        	buttonNav.css("display", "none");
+    
+        }
+        
     },
     resize: function() {
         clearTimeout(timer);
         timer = setTimeout(() => {
-            console.log('action');
+
             navPosTop = nav.offset().top;
         }, 200);
     }
