@@ -26,14 +26,16 @@ window.onload = function () {
 
 	
 			
-var nav = $('.navigationSite'),
+var $nav = $('.navigationSite'),
     navPosTop =  $navigationTop.offset().top + $navigationTop.height(),
     timer;
+
+
 $(window).on({
     scroll: function() {
-        nav[$(this).scrollTop() > navPosTop ? 'addClass' : 'removeClass']('navMob');
+        $nav[$(this).scrollTop() > navPosTop ? 'addClass' : 'removeClass']('navMob');
 
-        if (nav.hasClass('navMob')) {
+        if ($nav.hasClass('navMob')) {
         	buttonNav.css("display", "block");
         	
 
@@ -47,11 +49,10 @@ $(window).on({
         clearTimeout(timer);
         timer = setTimeout(() => {
 
-            navPosTop = nav.offset().top;
+            navPosTop = $nav.offset().top;
         }, 200);
     }
 }).resize();
-
 
 
 

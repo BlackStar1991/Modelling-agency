@@ -35,16 +35,25 @@ body {
 /* NAVIGATIO */
 
 .navigationSite {
-		width: 100%;
+		width: auto;
 		height: 25vh;
 }
 
 /* MOBILE NAVIG*/
 
+.navigationSite .navMob{
+	width: auto;
+	
+}
+
 .navMob {
 		width: 10%;
 		position: fixed;
-		z-index: 10;
+
+}
+
+.navMob .navigationTop ul{
+      width: 100%;
 }
 
 .navMob .navigationTop li {
@@ -177,6 +186,10 @@ h2 .decorLine {
 /**/
 
 /* ABOUT US SECTION*/
+
+#aboutUs{
+	margin-top: -8%;
+}
 
 .innerTitle h2 {
 		text-align: center;
@@ -651,7 +664,7 @@ h2 .decorLine {
 		height: 446px;
 }
 
-.shoolB3 {
+.shoolBL3 {
 		float: left;
 		position: relative;
 		width: 20%;
@@ -729,10 +742,13 @@ h2 .decorLine {
 		left: 10%;
 }
 
-.innerBl:hover {
+.shoolBL:hover .innerBl,
+.shoolBL2:hover .innerBl,
+.shoolBL3:hover .innerBl{
 		width: 100%;
 		height: 100%;
 		opacity: 1;
+		cursor: pointer;
 }
 
 #program1:hover .logo {
@@ -987,9 +1003,7 @@ a:nth-child(12) .imgBrandSpan {
 		margin-left: 2%;
 }
 
-.contactDiv {
 
-}
 
 .contactBut {
 		height: 60px;
@@ -1056,6 +1070,14 @@ a:nth-child(12) .imgBrandSpan {
 }
 
 /* SECTION Casting Page*/
+/*#mask {
+    background-color:rgba(0,0,0,.6);
+    height:100%;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+}*/
 
 .castingPage {
 		position: absolute;
@@ -1284,7 +1306,6 @@ fieldset {
 
 .file_upload input[type=file] {
 		position: absolute;
-
 		left: 0;
 		top: 0;
 		width: 100%;
@@ -1294,7 +1315,6 @@ fieldset {
 		-ms-transform: scale(20); /* IE 9 fix */
 		opacity: 0;
 		cursor: pointer;
-
 }
 
 
