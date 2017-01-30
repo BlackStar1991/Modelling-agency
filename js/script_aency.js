@@ -131,13 +131,14 @@ $(window).on({
 
     var $castingPage = $('.castingPage');
     var $contactBut = $('.contactBut');
+    var $buttonClose = $('.closeBut');
 
     $contactBut.on("click", function () {
 
         $castingPage.css({display: 'block'});
     });
 
-    $contactBut.on('click', function () {
+    $buttonClose.on('click', function () {
         $castingPage.css({display: 'none'});
     });
 
