@@ -1,65 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
 <head>
+
     <meta charset="UTF-8">
+
     <title>Moddelling agency Andry style =)</title>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <script src="lib/owl-carousel/owl.carousel.min.js"></script>
-    
 
-    <link rel="stylesheet" type="text/css" href="lib/normolize/normalize.css">
-    <link rel="stylesheet" href="lib/bootstrap/bootstrap-grid-3.3.2.min.css">
+    <style>
+        .loader{background:-webkit-radial-gradient(#fb3dcf ,#6e1255) 0 0;background:radial-gradient(#fb3dcf ,#6e1255) 0 0;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;width:100%;z-index:9999}.loader_inner{background-image:url(img/icons/Preloader_Rabbit.svg);background-repeat:no-repeat;background-position:center center;height:980px;width:680px;margin-top:-490px;margin-left:-340px;left:50%;top:50%;position:absolute}
 
-    <link rel="stylesheet" href="lib/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="lib/owl-carousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="lib/owl-carousel/owl.carousel.css"/>
+
+        button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}
+        /*# sourceMappingURL=normalize.min.css.map */
+    </style>
+
+
+    <style>
+        html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+        body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width: 768px){.container{width:750px}}@media (min-width: 992px){.container{width:970px}}@media (min-width: 1200px){.container{width:1170px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.row{margin-left:-15px;margin-right:-15px}.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width: 768px){.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width: 992px){.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width: 1200px){.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right!important}.pull-left{float:left!important}.hide{display:none!important}.show{display:block!important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none!important;visibility:hidden!important}.affix{position:fixed}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none!important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none!important}@media (max-width: 767px){.visible-xs{display:block!important}table.visible-xs{display:table}tr.visible-xs{display:table-row!important}th.visible-xs,td.visible-xs{display:table-cell!important}.visible-xs-block{display:block!important}.visible-xs-inline{display:inline!important}.visible-xs-inline-block{display:inline-block!important}}@media (min-width: 768px) and (max-width: 991px){.visible-sm{display:block!important}table.visible-sm{display:table}tr.visible-sm{display:table-row!important}th.visible-sm,td.visible-sm{display:table-cell!important}.visible-sm-block{display:block!important}.visible-sm-inline{display:inline!important}.visible-sm-inline-block{display:inline-block!important}}@media (min-width: 992px) and (max-width: 1199px){.visible-md{display:block!important}table.visible-md{display:table}tr.visible-md{display:table-row!important}th.visible-md,td.visible-md{display:table-cell!important}.visible-md-block{display:block!important}.visible-md-inline{display:inline!important}.visible-md-inline-block{display:inline-block!important}}@media (min-width: 1200px){.visible-lg{display:block!important}table.visible-lg{display:table}tr.visible-lg{display:table-row!important}th.visible-lg,td.visible-lg{display:table-cell!important}}@media (min-width: 1200px){.visible-lg-block{display:block!important}}@media (min-width: 1200px){.visible-lg-inline{display:inline!important}}@media (min-width: 1200px){.visible-lg-inline-block{display:inline-block!important}}@media (max-width: 767px){.hidden-xs{display:none!important}}@media (min-width: 768px) and (max-width: 991px){.hidden-sm{display:none!important}}@media (min-width: 992px) and (max-width: 1199px){.hidden-md{display:none!important}}@media (min-width: 1200px){.hidden-lg{display:none!important}}.visible-print{display:none!important}@media print{.visible-print{display:block!important}table.visible-print{display:table}tr.visible-print{display:table-row!important}th.visible-print,td.visible-print{display:table-cell!important}}.visible-print-block{display:none!important}@media print{.visible-print-block{display:block!important}}.visible-print-inline{display:none!important}@media print{.visible-print-inline{display:inline!important}}.visible-print-inline-block{display:none!important}@media print{.visible-print-inline-block{display:inline-block!important}}@media print{.hidden-print{display:none!important}}</style>
+    <!-- Bootstrap END-->
+    <!--HEADER-->
+    <style>
+        body{height:100vh;background:url(../img/bg2.jpg) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}a{text-decoration:none}.top_header{position:relative;width:100%}.logo{float:left}.nameAgency{float:left;margin-left:2%;color:pink;font-size:3vw;font-family:'Merienda One',cursive}.navMob .navigationTop ul,.navigationSite .navMob,body{width:100%}.navMob{position:fixed;margin-top:-10%;z-index:999}.navMob .navigationTop li{width:130%;display:block;padding:.75%;clear:both;text-align:center;border:1px solid red}.navMob .navigationTop li:first-child,.navMob .navigationTop li:last-child{border-radius:0}.navMob .navigationTop a{display:block;width:100%;font-size:1.2vw}.navigationTop ul{margin:0 auto;text-align:center;list-style-type:none;font-size:0}.navigationTop li{display:inline-block;width:calc(100%/7);text-align:center;padding:1%;background-color:rgba(214,89,246,.8);white-space:nowrap}.navigationTop li:first-child{border-radius:35% 0 0 35%}.navigationTop li:last-child{border-radius:0 35% 35% 0}.navigationTop a{display:inline-block;color:#fff;font-size:1.5vw;font-family:'Merienda One',cursive}.navigationTop li:hover{background-color:#b93cd9;transition:all .3s}.titleSection{position:relative;width:100%}.titleSection a{color:red;font-size:2em;font-family:'Sacramento',cursive}.decorLine{overflow:hidden}.decorLine:after,.decorLine:before{content:'';position:absolute;top:50%;display:inline-block;vertical-align:middle;box-sizing:border-box;width:100%;height:3px;background:#ff74dd;border:solid #ff74dd;border-width:0 10px}.decorLine:before{margin-left:-100%}.decorLine:after{margin-right:-100%}.my_menu_button{position:relative;padding-left:10%;background-color:transparent;border:medium none;color:pink;border-top:4px solid pink;font-size:2em;text-decoration:none;outline:none;display:none}
+    </style>
+    <!--HEADER END-->
+
+
+
+
+    <!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
+    <style>
+        @font-face{font-family:"Oswald";font-style:normal;font-weight:400;src:url(fonts/Oswald/Oswaldbold.eot?#iefix) format("embedded-opentype"),url(fonts/Oswald/Oswaldbold.woff) format("woff"),url(fonts/Oswald/Oswaldbold.ttf) format("truetype"),url(fonts/Oswald/Oswaldbold.svg) format("svg")}@font-face{font-family:"Fjalla One";font-style:normal;font-weight:400;src:url(fonts/Fjalla_One/Fjallaone.eot?#iefix) format("embedded-opentype"),url(fonts/Fjalla_One/Fjallaone.woff) format("woff"),url(fonts/Fjalla_One/Fjallaone.ttf) format("truetype")}@font-face{font-family:"Merienda One";font-style:normal;font-weight:400;src:url(fonts/Merienda_One/MeriendaOne-Regular.eot?#iefix) format("embedded-opentype"),url(fonts/Merienda_One/MeriendaOne-Regular.woff) format("woff"),url(fonts/Merienda_One/MeriendaOne-Regular.ttf) format("truetype"),url(fonts/Merienda_One/MeriendaOne-Regular.svg#ProximaNovaExtraBold) format("svg")}@font-face{font-family:"Sacramento";font-style:normal;font-weight:400;src:url(fonts/Sacramento/Sacramento-Regular.eot?#iefix) format("embedded-opentype"),url(fonts/Sacramento/Sacramento-Regular.woff) format("woff"),url(fonts/Sacramento/Sacramento-Regular.ttf) format("truetype"),url(fonts/Sacramento/Sacramento-Regular.svg) format("svg")}
+    </style>
+    <!--MEDIA-->
+    <style>
+        @media only screen and (max-width:991px){.boxPhoto{height:700px}}
+    </style>
+
+    <!---->
+
+    <!--<link rel="stylesheet" type="text/css" href="lib/normolize/normalize.css">-->
+    <!--<link rel="stylesheet" href="lib/bootstrap/bootstrap-grid-3.3.2.min.css">-->
+
+    <link rel="stylesheet" href="lib/full.css">
+
+    <!--<link rel="stylesheet" async defer href="lib/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" async defer href="lib/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" async defer href="lib/owl-carousel/owl.carousel.css"/>
+
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/fonts.css">
-    <link rel="stylesheet" href="style/media.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Merienda+One|Sacramento|Oswald" rel="stylesheet">
+
+
+    <!--<link rel="stylesheet" href="style/fonts.css">-->
+    <!--<link rel="stylesheet" href="style/media.css">-->
+
+    <!--<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Merienda+One|Sacramento|Oswald" rel="stylesheet">-->
 
 </head>
 <body>
+
+
+
+<div class="loader">
+    <div class="loader_inner"></div>
+</div>
+<!--loader-->
+
+
 <header class="top_header">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <img class="logo" src="img/logoPinkRabbit.png" alt="Logo">
+                <img class="logo" src="img/icons/logoPinkRabbit.png" alt="Logo">
                 <div class="nameAgency"><h1>Pinc<br> Rebbit</h1></div>
             </div>
         </div>
     </div>
 </header>
-<nav class="navigationSite"> <!-- ++ navMob -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-
-                <div class="navigationTop clearfix">
-                    <button class="my_menu_button"><em class=" fa fa-bars"></em></button>
-                    <ul class="navBar">
-                        <li><a href="#aboutUs">About Us</a></li>
-                        <li><a href="#myModels">Models</a></li>
-                        <li><a href="#myServices">Services</a></li>
-                        <li><a href="#mySchool">Fashion School</a></li>
-                        <li><a href="#myPartners">Partners</a></li>
-                        <li><a href="#myCasting">Casting</a></li>
-                        <li><a href="#contactInfo">Contacts</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+<nav class="navigationSite "> <!-- ++ navMob -->
+    <div class="navigationTop hidden-xs hidden-sm">
+        <button class="my_menu_button"><em class=" fa fa-bars"></em></button>
+        <ul class="navBar">
+            <li><a href="#aboutUs">About Us</a></li>
+            <li><a href="#myModels">Models</a></li>
+            <li><a href="#myServices">Services</a></li>
+            <li><a href="#mySchool">Fashion School</a></li>
+            <li><a href="#myPartners">Partners</a></li>
+            <li><a href="#myCasting">Casting</a></li>
+            <li><a href="#contactInfo">Contacts</a></li>
+        </ul>
     </div>
 </nav>
 
 <section id="aboutUs">
     <div class="container">
         <div class="row">
-            <div class="col-md-1">
-                <div class="innerTitle">
+            <div class="col-xs-12 clearfix">
+                <div class="innerTitle box-aboutUs">
                     <h2>About Us</h2>
                     <div class="block">
                         <p>" I created this Model Agency, as a sample of my skills in creating websites. All the ideas
@@ -93,14 +142,13 @@
     <div class="container">
         <div class="col-md-12 col-sm-12">
             <div class="titleSection">
-
-                <div class="innerTitle"><h2><a class="decorLine" href="#"><em class=" fa fa-venus"></em>
-                    Our models</a></h2></div>
+                <div class="innerTitle">
+                    <a class="decorLine" href="#"><h2 class="innerTitle__article">Our models</h2></a></div>
             </div>
 
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-xs-12">
 
                 <div class="boxPhoto">
                     <div class="ph_1"></div>
@@ -110,11 +158,7 @@
                         <div class="textForPhoto ph_bottom_center"><p>Share and win</p>
                             <p class="minText">-travel-love-explore-live-</p></div>
 
-                        <div class="svg_circle pos_left-bottom5">
-                            <object>
-                                <embed src="svg/Circle.svg">
-                            </object>
-                        </div>
+
                     </div>
                 </div>
 
@@ -125,12 +169,6 @@
                         <div class="rightGate"></div>
 
                         <div class="textForPhoto ph_center-left"><p>Women are made to be loved, not understood</p></div>
-
-                        <div class="svg_romb_mid pos_left-top">
-                            <object>
-                                <embed src="svg/Romb.svg">
-                            </object>
-                        </div>
                     </div>
 
                 </div>
@@ -153,21 +191,11 @@
                         <div class="rightGate"></div>
                         <div class="textForPhoto ph_bottom_left"><p>Smart women love smart men more than smart men love
                             smart women.</p></div>
-                        <div class="svg_romb_mid pos_left-top">
-                            <object>
-                                <embed src="svg/Romb.svg">
-                            </object>
-                        </div>
-                        <div class="svg_romb_min pos_left-bottom4">
-                            <object>
-                                <embed src="svg/Romb.svg">
-                            </object>
-                        </div>
                     </div>
                 </div>
 
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-xs-12">
 
                 <div class="boxPhoto">
                     <div class="ph_2"></div>
@@ -188,19 +216,6 @@
                             beautiful
                             in an
                             educated and disciplined way.</p></div>
-
-                        <div class="svg_circle pos_left-bottom2">
-                            <object>
-                                <embed src="svg/Circle.svg">
-                            </object>
-                        </div>
-
-                        <div class="svg_circle_min pos_left-bottom3">
-                            <object>
-                                <embed src="svg/Circle.svg">
-                            </object>
-                        </div>
-
                     </div>
                 </div>
 
@@ -222,29 +237,12 @@
                         <div class="rightGate"></div>
                         <div class="textForPhoto ph_right_center"><p>All a woman actually wants is to feel special</p>
                         </div>
-
-                        <div class="svg_romb_min pos_right-center">
-                            <object>
-                                <embed src="svg/Romb.svg">
-                            </object>
-                        </div>
-                        <div class="svg_romb pos_right-center">
-                            <object>
-                                <embed src="svg/Romb.svg">
-                            </object>
-                        </div>
-                        <div class="svg_romb_min pos_right-center_min">
-                            <object>
-                                <embed src="svg/Romb.svg">
-                            </object>
-                        </div>
-
                     </div>
                 </div>
 
             </div>
 
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-xs-12">
 
                 <div class="boxPhoto">
                     <div class="ph_3"></div>
@@ -253,11 +251,6 @@
                         <div class="rightGate"></div>
                         <div class="textForPhoto  ph_bottom_left"><p>Behind every great man is a woman rolling her
                             eyes.</p>
-                        </div>
-                        <div class="svg_romb_min pos_left-bottom">
-                            <object>
-                                <embed src="svg/Romb.svg">
-                            </object>
                         </div>
 
                     </div>
@@ -300,13 +293,12 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <div class="titleSection">
-
-                    <div class="innerTitle"><h2><a class="decorLine" href="#">
-                        Services </a></h2></div>
+                    <div class="innerTitle">
+                        <a class="decorLine" href="#"><h2 class="innerTitle__article">Services</h2></a></div>
                 </div>
                 <div class="descPart"><h2>Fashion Show &amp; Special Event Production</h2></div>
                 <div class="servBlock">
-                    <img src="img/Servises/FashionShow.jpg" alt="FashionShow">
+
                     <div class="servTextBlock">
                         <p>
                             It's show time and everyone loves a fashion show. From a glamorous intimate evening of
@@ -319,11 +311,12 @@
                             coordination to theme development the creativity is endless allowing you to be free of
                             technical details and to be there to meet and greet your guests. </p>
                     </div>
+                    <img src="img/Servises/FashionShow.jpg" alt="FashionShow">
                 </div>
 
                 <div class="descPart"><h2>Hair &amp; Make-up Artists</h2></div>
                 <div class="servBlock">
-                    <img src="img/Servises/MakeUp.jpeg" alt="MakeUp">
+
                     <div class="servTextBlock">
                         <p>Our professional hair and make-up artists are here to serve you! Professional hair and
                             make-up adds the finishing touch to any project;</p>
@@ -338,10 +331,11 @@
                             <li>special events and corporate function</li>
                         </ul>
                     </div>
+                    <img src="img/Servises/MakeUp.jpeg" alt="MakeUp">s
                 </div>
                 <div class="descPart"><h2>Fashion Stylists</h2></div>
                 <div class="servBlock">
-                    <img src="img/Servises/FashionStylist.jpg" alt="FashionStylist">
+
                     <div class="servTextBlock">
                         <p>A professional fashion stylist will pull your project together and make it stand out and
                             be noticed.
@@ -353,10 +347,11 @@
                             <li>television</li>
                         </ul>
                     </div>
+                    <img src="img/Servises/FashionStylist.jpg" alt="FashionStylist">
                 </div>
                 <div class="descPart"><h2>Brand Ambassadors &amp; Promotional Hosts</h2></div>
                 <div class="servBlock">
-                    <img src="img/Servises/Brand Ambassadors.jpg" alt="">
+
                     <div class="servTextBlock">
                         <p>Pinc Rabbit offers friendly, reliable and professional staff to represent you and your brand.
                             Our high calibre brand ambassadors and event personnel are enthusiastic, out going and
@@ -372,6 +367,7 @@
                             <li>College &amp; University Promotional Staffing</li>
                         </ul>
                     </div>
+                    <img src="img/Servises/Brand Ambassadors.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -383,9 +379,8 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <div class="titleSection">
-
-                    <div class="innerTitle"><h2><a class="decorLine" href="#">
-                        Fashion School </a></h2></div>
+                    <div class="innerTitle">
+                        <a class="decorLine" href="#"><h2 class="innerTitle__article">Fashion Shool</h2></a></div>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -393,7 +388,7 @@
                             <div class="treaningBlocks">
                                 <div id="program1" class="shoolBL">
                                     <div class="schoolImgBox">
-                                        <img src="img/School/school_program_head1.png" alt="head" class="logo ">
+                                        <img src="img/School/words/school_program_head1.png" alt="head" class="logo ">
                                     </div>
                                     <div class="innerBl">
                                         <p class="rightText">Teacher</p>
@@ -413,7 +408,7 @@
                                 </div>
                                 <div id="program2" class="shoolBL">
                                     <div class="schoolImgBox">
-                                        <img src="img/School/school_program_head2.png" alt="head" class="logo">
+                                        <img src="img/School/words/school_program_head2.png" alt="head" class="logo">
                                     </div>
 
                                     <div class="innerBl">
@@ -435,7 +430,7 @@
                                 </div>
                                 <div id="program3" class="shoolBL2">
                                     <div class="schoolImgBox">
-                                        <img src="img/School/school_program_head3.png" alt="head" class="logo">
+                                        <img src="img/School/words/school_program_head3.png" alt="head" class="logo">
                                     </div>
 
                                     <div class="innerBl">
@@ -456,7 +451,7 @@
                                 </div>
                                 <div id="program4" class="shoolBL">
                                     <div class="schoolImgBox">
-                                        <img src="img/School/school_program_head4.png" alt="head" class="logo">
+                                        <img src="img/School/words/school_program_head4.png" alt="head" class="logo">
                                     </div>
 
                                     <div class="innerBl">
@@ -477,7 +472,7 @@
                                 </div>
                                 <div id="program5" class="shoolBL3">
                                     <div class="schoolImgBox">
-                                        <img src="img/School/school_program_head5.png" alt="head" class="logo">
+                                        <img src="img/School/words/school_program_head5.png" alt="head" class="logo">
                                     </div>
 
                                     <div class="innerBl">
@@ -498,7 +493,7 @@
                                 </div>
                                 <div id="program6" class="shoolBL3">
                                     <div class="schoolImgBox">
-                                        <img src="img/School/school_program_head6.png" alt="head" class="logo">
+                                        <img src="img/School/words/school_program_head6.png" alt="head" class="logo">
                                     </div>
 
                                     <div class="innerBl">
@@ -518,7 +513,8 @@
                                     </div>
                                 </div>
                                 <div id="program7" class="shoolBL3">
-                                    <div class="schoolImgBox"><img src="img/School/school_program_head7.png" alt="head"
+                                    <div class="schoolImgBox"><img src="img/School/words/school_program_head7.png"
+                                                                   alt="head"
                                                                    class="logo">
                                     </div>
 
@@ -539,7 +535,7 @@
                                 </div>
                                 <div id="program8" class="shoolBL3">
                                     <div class="schoolImgBox">
-                                        <img src="img/School/school_program_head8.png" alt="head" class="logo">
+                                        <img src="img/School/words/school_program_head8.png" alt="head" class="logo">
                                     </div>
 
                                     <div class="innerBl">
@@ -556,7 +552,7 @@
                                 </div>
                                 <div id="program9" class="shoolBL3">
                                     <div class="schoolImgBox">
-                                        <img src="img/School/school_program_head9.png" alt="head" class="logo">
+                                        <img src="img/School/words/school_program_head9.png" alt="head" class="logo">
                                     </div>
 
                                     <div class="innerBl">
@@ -590,48 +586,42 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <div class="titleSection">
-
-                    <div class="innerTitle"><h2><a class="decorLine" href="#">
-                        Our Partners </a></h2></div>
+                    <div class="innerTitle">
+                        <a class="decorLine" href="#"><h2 class="innerTitle__article">Our Partners</h2></a></div>
                 </div>
             </div>
-            <div class="col-md-12 col-sm-12">
-                <div class="descPart"><h2>Magazines</h2></div>
 
-                <div class="partnersBlock">
+            <div class="descPart"><h2>Magazines</h2></div>
 
-                    <div class="row">
-                        <div class="firstLine">
-                            <div class="col-md-3"><a href="#"><img src="img/Magazine/bazar.jpg" alt="1_1"></a></div>
-                            <div class="col-md-3"><a href="#"><img src="img/Magazine/domino.jpg" alt="1_2"></a></div>
-                            <div class="col-md-3"><a href="#"><img src="img/Magazine/marie-claire.jpg" alt="1_3"></a>
-                            </div>
-                            <div class="col-md-3"><a href="#"><img src="img/Magazine/muse.jpg" alt="1_4"></a></div>
-                        </div>
-                    </div>
+            <div class="partnersBlock">
 
-                    <div class="row">
-                        <div class="secondLine">
-                            <div class="col-md-12">
-                                <a href="#"><img src="img/Magazine/TandT.jpg" alt="2_1"></a>
-                                <a href="#"><img src="img/Magazine/boutique.jpg" alt="2_2"></a>
-                                <a href="#"><img src="img/Magazine/elle.jpg" alt="2_3"></a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="thirdLine">
-                            <div class="col-md-3"><a href="#"><img src="img/Magazine/fasion.jpg" alt="3_1"></a></div>
-                            <div class="col-md-3"><a href="#"><img src="img/Magazine/sundayr.jpg" alt="3_2"></a></div>
-                            <div class="col-md-3"><a href="#"><img src="img/Magazine/Lucky.jpg" alt="3_3"></a></div>
-                            <div class="col-md-3"><a href="#"><img src="img/Magazine/slink.jpg" alt="3_4"></a></div>
+                <div class="col-sm-4">
 
-                        </div>
-
-                    </div>
+                    <a class="partnersBlock__magazine" href="#"><img src="img/Magazine/bazar.jpg" alt="1_1"></a>
+                    <a class="partnersBlock__magazine" href="#"><img src="img/Magazine/domino.jpg" alt="1_2"></a>
+                    <a class="partnersBlock__magazine" href="#"><img src="img/Magazine/marie-claire.jpg" alt="1_3"></a>
+                    <a class="partnersBlock__magazine" href="#"><img src="img/Magazine/muse.jpg" alt="1_4"></a>
 
                 </div>
+
+                <div class="col-sm-4">
+
+                    <a class="partnersBlock__magazine magazine_scondBlock" href="#"><img src="img/Magazine/TandT.jpg" alt="2_1"></a>
+                    <a class="partnersBlock__magazine magazine_scondBlock" href="#"><img src="img/Magazine/boutique.jpg" alt="2_2"></a>
+                    <a class="partnersBlock__magazine magazine_scondBlock" href="#"><img src="img/Magazine/elle.jpg" alt="2_3"></a>
+
+                </div>
+
+                <div class="col-sm-4">
+
+                    <a class="partnersBlock__magazine" href="#"><img src="img/Magazine/fasion.jpg" alt="3_1"></a>
+                    <a class="partnersBlock__magazine" href="#"><img src="img/Magazine/sundayr.jpg" alt="3_2"></a>>
+                    <a class="partnersBlock__magazine" href="#"><img src="img/Magazine/Lucky.jpg" alt="3_3"></a>
+                    <a class="partnersBlock__magazine" href="#"><img src="img/Magazine/slink.jpg" alt="3_4"></a>
+
+                </div>
+
 
                 <div class="row">
                     <div class="col-md-12">
@@ -679,18 +669,18 @@
                                 <a href="#"><img src="img/auto/car-logo1.png" alt="1"></a>
                                 <a href="#"><img src="img/auto/car-logo2.png" alt="2"></a>
                                 <a href="#"><img src="img/auto/car-logo3.png" alt="3"></a>
+                                <a href="#"><img src="img/auto/car-logo4.png" alt="3"></a>
                                 <a href="#"><img src="img/auto/car-logo5.png" alt="5"></a>
                                 <a href="#"><img src="img/auto/car-logo6.png" alt="6"></a>
                                 <a href="#"><img src="img/auto/car-logo7.png" alt="7"></a>
+                                <a href="#"><img src="img/auto/car-logo8.png" alt="7"></a>
                             </div>
                         </div>
-
+                    </div>
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
 </section>
 
 <section id="myCasting">
@@ -703,7 +693,7 @@
                             Contact us</p>
 
                         <form action="">
-                            <img src="img/FooMin.png" alt="footerMin">
+                            <img src="img/icons/FooMin.png" alt="footerMin">
                             <div class="contactDiv"><input class="contactBut" type="button" value="Dreams Come True">
                             </div>
                         </form>
@@ -719,7 +709,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <img class="logoButton" src="img/rabbit_footer.gif" alt="rabbit_footer">
+                <img class="logoButton" src="img/icons/rabbit_footer.gif" alt="rabbit_footer">
                 <div class="soc_button">
                     <p>FOLLOW NEXT MANAGEMENT:</p>
                     <a href="#"><em class="fa fa-facebook-official"></em></a>
@@ -742,8 +732,9 @@
 <section class="castingPage">
     <div class="mask"></div>
 
-    <div class="closeBut"><em class="fa fa-times"></em></div>
+
     <div class="bigCasting">
+        <div class="closeBut"><em class="fa fa-times"></em></div>
         <fieldset>
             <legend>SUBMISSIONS</legend>
             <label for="mName"><p class="textForm">Name*</p></label>
@@ -756,14 +747,14 @@
             <input id='mEmail' class="valueForm" name="email-" type="text" required>
 
             <p class="textForm">Gender</p>
-             <label> <p class="valueForm"><input type="radio" name="sex-"  value="Female" checked>female  </label>
-             <label>  <input type="radio" name="sex-" value="male">male</p> </label>
-           
+            <label><p class="valueForm"><input type="radio" name="sex-" value="Female" checked>female</label>
+            <label> <input type="radio" name="sex-" value="male">male</p> </label>
+
 
             <p class="textForm">Age*</p>
             <p class="valueForm">
 
-               <select name="age-woman">
+                <select name="age-woman">
                     <option value="SelectAge">SelectAge*</option>
                     <option name="Age-" value="13">13</option>
                     <option name="Age-" value="14">14</option>
@@ -880,7 +871,7 @@
 
         <div class="sendDate">
             <form method="get">
-                <p><input type="submit" value="Send"></p>
+                <input type="submit" value="Send" >
             </form>
 
         </div>
@@ -888,7 +879,88 @@
     </div>
 
 </section>
-<script type="text/javascript" src='js/script_aency.js'></script>
+
+
+ <!--Load CSS -->
+<script>
+    var ms=document.createElement("link");
+    ms.rel="stylesheet";
+    ms.hre‌​f="style/style.css";
+    docume‌​nt.getElementsByTagN‌​ame("head")[0].appen‌​dChild = function (ms) {
+        docume‌​nt.getElementsByTagN‌​ame("head")[0].appen‌​dChild(ms);
+    };
+
+</script>
+
+
+
+
+
+
+
+
+<!--[if lt IE 9]>
+<script src="lib/html5shiv/es5-shim.min.js"></script>
+<script src="lib/html5shiv/html5shiv.min.js"></script>
+<script src="lib/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="lib/respond/respond.min.js"></script>
+<![endif]-->
+
+
+<!-- Load Scripts -->
+<!--<script>var scr = {-->
+<!--"scripts": [-->
+<!--{"src": "lib/modernizr/modernizr.js", "async": false},-->
+<!--{"src": "lib/jquery/jquery-3.1.1.min.js", "async": false},-->
+<!--{"src": "lib/owl-carousel/owl.carousel.min.js", "async": false},-->
+<!--{"src": "js/script_agency.js", "async": false}-->
+<!--]-->
+<!--};-->
+<!--!function (t, n, r) {-->
+<!--"use strict";-->
+<!--var c = function (t) {-->
+<!--if ("[object Array]" !== Object.prototype.toString.call(t))return !1;-->
+<!--for (var r = 0; r < t.length; r++) {-->
+<!--var c = n.createElement("script"), e = t[r];-->
+<!--c.src = e.src, c.async = e.async, n.body.appendChild(c)-->
+<!--}-->
+<!--return !0-->
+<!--};-->
+<!--t.addEventListener ? t.addEventListener("load", function () {-->
+<!--c(r.scripts);-->
+<!--}, !1) : t.attachEvent ? t.attachEvent("onload", function () {-->
+<!--c(r.scripts)-->
+<!--}) : t.onload = function () {-->
+<!--c(r.scripts)-->
+<!--}-->
+<!--}(window, document, scr);-->
+<!--</script>-->
+
+<script>
+    ![
+        {src: "lib/modernizr/modernizr.js", async: true},
+        {src: "lib/jquery/jquery-3.1.1.min.js"},
+        {src: "lib/owl-carousel/owl.carousel.min.js"},
+        "js/script_agency.js"
+    ]
+        .forEach(function (p) {
+            if (typeof p === 'string') p = {src: p};
+            var s = document.createElement('script');
+            s.async = !!p.async;
+            s.src = p.src;
+            document.head.appendChild(s);
+        });
+
+
+</script>
+
+
+<!--<script src="lib/modernizr/modernizr.js"></script>-->
+<!--<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+<!--<script defer src="lib/owl-carousel/owl.carousel.min.js"></script>-->
+<!--<script defer src='js/script_agency.js'></script>-->
+
+
 </body>
 </html>
        
